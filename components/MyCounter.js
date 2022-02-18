@@ -7,8 +7,8 @@ const MyCounter = () => {
       <h3>MyCounter is this</h3>
       <p>Count is: {count}</p>
 
-      <button style={{ margin: '15px' }}>Increase Count</button>
-      <button style={{ margin: '15px' }}>Decrease Count</button>
+      <button>Increase Count</button>
+      <button>Decrease Count</button>
     </div>
   );
 };
