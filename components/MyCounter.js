@@ -9,8 +9,8 @@ const MyCounter = () => {
       <h3>MyCounter is this</h3>
       <p>Count is: {myCount.count}</p>
 
-      <button onClick={increaseCount}>Increase Count</button>
-      <button onClick={decreaseCount}>Decrease Count</button>
+      <button onClick={myCount.increaseCount}>Increase Count</button>
+      <button onClick={myCount.decreaseCount}>Decrease Count</button>
     </div>
   );
 };
